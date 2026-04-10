@@ -28,10 +28,10 @@ while True:
         global left_score, right_score
         if button.pin.number == 14:
             left_score += 1
-            print(f"🎉 {left_name} won the game !")
+            print(f" {left_name} won the game !")
         else:
             right_score += 1
-            print(f"🎉 {right_name} won the game !")
+            print(f" {right_name} won the game !")
 
     left_button.when_pressed = pressed
     right_button.when_pressed = pressed
